@@ -3,7 +3,7 @@ spec:
   static_sites:
     - name: suri
       git:
-        repo_clone_url: https://github.com/jstayton/suri.git
+        repo_clone_url: https://github.com/moutons/suri.git
         branch: master
       envs:
         - key: SURI_JS
