@@ -1,0 +1,8 @@
+name: moutons-suri
+services:
+- environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: moutons/suri
+  name: moutons-suri

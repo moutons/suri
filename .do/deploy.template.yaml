@@ -5,8 +5,6 @@ spec:
       git:
         repo_clone_url: https://github.com/moutons/suri.git
         branch: master
-      github:
-        deploy_on_push: true
       envs:
         - key: SURI_JS
           value: '0'
